@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="Daneka Boogaard" content="">
+
+    <title>VLPortal</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<!-- Icons from fontawesome.com -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type = "text/css" href="css\myStyle.css"/>
+	
+  </head>
+  <style>
+
+</style>
+
+  <body>
+   <!--source: https://www.w3schools.com/bootstrap/bootstrap_navbar.asp -->
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><span class="fa fa-spinner fa-2x"></span>VLPortal</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+		<li><a href="#"><span class="fa fa-bell fa-1x"></span></a></li> <!--included on top of source-->
+		<li><a href="#"><span class="fa fa-info-circle fa-1x"></span></a></li> <!--included on top of source-->
+        <li><a href="#"><span class="glyphicon glyphicon-log-out fa-1x"></span> Log Out</a></li> <!--switched from log in to log out-->
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--end source-->
+  
+  
+
+  
+   <!-- LEFT SIDEBAR -->
+  <div id="sidebar" class="container-fluid text-left">    
+  <div class="row content">
+    <div class="col-lg-2">
+	<div class= "side-panel1">
+	<p><img src="image\profile_photo.jpg" alt="user profile image" style="width:100px;height:100px">
+	  <p style="font-weight: bold; color:black;">Lisa Mack</p>
+      <p><a href="#" style="color:black"><span class="fa fa-book fa-1x"></span> Courses</a></p>
+	  <p><a href="#"style="color:black"><span class="fa fas fa-tasks fa-1x"></span> Grades</a></p>
+	  <p><a href="#"style="color:black"><span class="fa fa-cog fa-1x"></span> Settings</a></p>
+	  <p><a href="#"style="color:black"><span class="fa fa-question-circle fa-1x"></span> Help</a></p>
+	  </div>
+	 <div class ="side-panel2">
+	 <p style="font-weight: bold; color:black;margin:10px"> PhysEd100 </p>
+	 <p><a href="homepage.html"><span class="fas fa-home fa-1x"></span> Home</a></p>
+	  <p><a href="#"><span class="fa fa-users fa-1x"></span> Group</a></p>
+      <p><a href="#"style="color:black"><span class="fa fa-folder-open fa-1x"></span> Resources</a></p>
+    </div>
+    </div>
+	
+	
+
+	<!--PAGE CONTENT-->
+    <div class="col-lg-8 text-center"> 
+	<h3>Feedback</h3>
+	<!-- well source: https://www.w3schools.com/bootstrap/bootstrap_wells.asp -->
+		<div class="well" style="margin:15px; height:50px; padding:10px;"><p align="left"><img src="image\tom.jpg" alt="user profile image" style="width:30px;height:30px"> Great content check your run on sentences for the second half though</p></div>
+		<div class="well" style="margin:15px; height:50px; padding:10px;"><p align="left"><img src="image\sarah.jpg" alt="user profile image" style="width:30px;height:30px"> I think its probably necessary to talk more about how the body breaks down carbs for energy</p></div>
+		<div class="well" style="margin:15px; height:50px; padding:10px;"><p align="left"><img src="image\casey.jpg" alt="user profile image" style="width:30px;height:30px"> Wouldnt change anything</p></div>
+		<div class="well" style="margin:15px; height:50px; padding:10px;"><p align="left"><img src="image\nikki.jpg" alt="user profile image" style="width:30px;height:30px"> Run on sentences in second half</p></div>
+		<!-- end of well source -->
+		<p align="right" style="font-weight:bold;">Rating: 84.3% (A-)</p><hr>
+	<a href="Assignment.html"><button type="button" class="btn btn-warning">Return</button></a></div>
+	  
+	  
+	<!-- CALNDR -->
+	<div class="container-fluid">
+	<div class="row">
+	<div class="col-lg-2">
+	<div>
+		<p><img src="image\calendar-png.png" alt="user profile image" style="width:180px;height:180px; border-radius: 5%; margin-top: 20px; margin-right: 20px"></i></p>      
+      </div>
+	  
+	<!-- ONLINE -->
+      <button id="editButton" class="online" style="border:none">
+        <p align="left" style="font-weight: bold; color:black;">Online</p>
+                <p align="left">
+				<i class="fas fa-user-check" style="color: green"></i> Sarah
+				</p>
+				<p align="left">
+				<i class="fas fa-user-check" style="color: green"></i> Tom
+				</p>
+				<p align="left">
+				<i class="fas fa-user-check" style="color: green"></i> Casey
+				</p>
+      </button>
+	  
+	  <!-- OFFLINE -->
+      <div class="offline">
+        <p align="left" style="font-weight: bold; color:black;">Offline</p>
+                <p align="left">
+				<i class="fa fa-user-times" style="color: red"></i> Nikki</p>
+      </div>
+    </div>
+	</div>
+	</div>
+  
+
+	<!-- FOOTER -->
+	<div class="footer">
+		<p><span class="fa fa-copyright"><span> Copyright 2018 VLPortal</span><span> Terms of Use</span> Site Conditions</p>
+	</div>
+	
+	
+
+
+
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="bootstrap/jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+
+</html>

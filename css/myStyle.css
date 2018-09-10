@@ -1,0 +1,258 @@
+a {
+	color: black;
+} 
+a:hover{
+	 color:black
+} 
+
+} 
+a:active {
+    text-decoration: none;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+p {
+    font-family: "Arial", Sans-serif;
+}
+
+  
+.vl {
+    border-right: 2px solid gray;
+    height: 600px;
+}
+
+.right {
+    float: right;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+h1,h2,h3,h4, h5 {
+	margin: 10px;
+	color: black;
+	font-weight: bold;
+	text-indent: 10px
+	
+}
+
+.online{
+	width: 95%;
+	height: 150px;
+	background-color: #AED1D9;
+	padding: 10px;
+	margin: 5px;
+	font-size:15px;
+	border-radius: 2px;
+	text-indent:10px;
+	color: black;
+}
+
+.offline{
+	width: 95%;
+	height: 100px;
+	background-color: #AED1D9;
+	padding: 10px;
+	margin: 5px;
+	font-size:15px;
+	border-radius: 3px;
+	text-indent:10px;
+	color: black;
+}
+
+.side-panel1 {
+	  width: 100%;
+      background-color: #76A9B5;
+      height: 300px;
+	  padding: 25px;
+	  margin: 10px;
+	  font-size:15px;
+	  border-radius: 2px;
+	  text-indent: 10x;
+	  
+}
+
+
+
+.side-panel2 {
+	width: 100%;
+	  padding-top: 5px;
+      background-color: #4B8694;
+      height: 160px;
+	  padding: 5px;
+	  margin: 10px;
+	  font-size:15px;
+	  border-radius: 2px;
+	  text-indent: 10px;
+	  
+	  
+}
+
+/*source: https://www.w3schools.com/bootstrap/bootstrap_navbar.asp*/
+/*padding, margin and border radius values altered*/
+.navbar {
+      margin-bottom: 5px;
+	  padding-top: 0px;
+      border-radius: 0px;
+	  padding-bottom: 10px;
+    }
+.feature-panel {
+	background-color: #DCDCDC;
+	padding-top: 20px;
+    height: 100%;
+	 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 0px;
+}
+
+img {
+    border-radius: 45%;
+}
+
+/*source: https://www.w3schools.com/bootstrap/bootstrap_navbar.asp*/
+.navbar-brand{
+	text-indent: 28px;
+	color: white;
+	
+}
+
+.assignment-box{
+	width: 200px;
+    border: 1px solid black;
+    padding: 25px;
+    margin: 20px;}
+
+	
+/* The Modal (background) */
+/*source: https://www.w3schools.com/howto/howto_css_modals.asp
+content specifics altered i.e colour, padding etc */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0, 0.5); /* Fallback color */
+}
+
+
+/* Modal Content/Box */
+/*source: https://www.w3schools.com/howto/howto_css_modals.asp
+content specifics altered i.e colour, padding etc */
+.modal-content {
+	margin-top: 2%;
+    margin-left: 10%; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+	height: 560px;
+	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2),0 7px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*source: https://www.w3schools.com/howto/howto_css_modals.asp
+content specifics altered i.e text-align, padding*/
+.modal-footer{
+	text-align: center;
+	padding:10px;
+	
+}
+
+/*source: https://www.w3schools.com/howto/howto_css_modals.asp */
+/* The Close Button */
+.close {
+    color: #fff;
+	padding:10px;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.myBtn{
+	width: 200px;
+	height:150px;
+    margin: 15px;
+	background-color: white;
+	border-top-style: soft;
+	border-bottom-color: gray;
+	border-right-style: solid;
+	border-right-color: gray;
+    border-bottom-style: solid;
+    border-left-style: soft;
+	border-radius: 3px;
+	  }
+	  
+.footer {
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	height: 35px;
+    background-color: #C0C0C0;
+    color: white;
+    text-align: right;
+	padding: 10px;
+   
+}
+
+div {
+    padding: 0px;
+}
+
+a {
+    color: black;
+}
+.myBtn:hover{
+	background-color:#C0C0C0;
+	color: white; 
+	icon: white;
+}
+
+/*source: https://www.w3schools.com/howto/howto_css_modals.asp
+content specifics altered i.e colour, padding etc */
+.modal-header{
+	background: #4B8694;
+	padding:0px;
+	margin:0px;
+	height:10%;
+	text-align: center;
+	color:white;
+	}
+
+
+.modal-body{
+    overflow-y: auto;
+}
+
+.myMembers{
+	width: 150px;
+	height:240px;
+    margin: 25px;
+	background-color: white;
+	border-top-style: solid;
+	  border-bottom-color: gray;
+	  border-top-color: #C0C0C0;
+	  border-left-color: #C0C0C0;
+	  border-right-style: solid;
+	  border-right-color: gray;
+      border-bottom-style: solid;
+      border-left-style: soft;
+	  padding: 5px;
+	  margin: 25px;
+	  font-size:15px;
+	  border-radius: 3px;
+	  }
