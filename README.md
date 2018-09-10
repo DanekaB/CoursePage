@@ -1,4 +1,4 @@
 # CoursePage
 Limited functionality Course Page
 
-Introduction to HTML, Javascript and CSS
+First time using HTML, Javascript and CSS
